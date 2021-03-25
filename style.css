@@ -197,3 +197,36 @@ input[type='file'] {
     
     
 }
+
+@media only screen and (max-width: 768px){
+
+    .selImg{
+        width: 100px;
+        height: 100px;
+        border: 1px solid black;
+    }
+    .bottom button, .container button{
+
+        padding: 10px;
+        max-width: 120px;
+        
+        border-radius: 10px;
+        color: white;
+        font-size: 15px;
+        font-weight: bolder;
+        border: 1px;
+        background-color: #eb8934;
+        overflow: hidden;
+    }
+    
+input[type='file'] {
+    color:White;
+    font-size: 10px;
+  }
+#next{
+    width: 50px;
+    border-radius: 10px;
+    font-weight: bolder;
+    
+}
+}
